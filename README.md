@@ -1,6 +1,6 @@
 # Issue Details
 
-This repo contains files that might be relevant for resolving the dcm4che issue regarding DICOM study folder not getting loaded into dcm4che.
+DICOM study folder is not getting loaded into dcm4che.
 
 After dcm4che and OHIF viewer were setup without any docker build issues,the following command was run:
 
@@ -16,4 +16,4 @@ Also included are docker config files and the output from
 storescu -c DCM4CHEE@localhost:11112 . 1>>storescu.log 2>>storescu.err.log
 ```
 
-Other files, if relevant will be added here.
+Other files, if relevant, will be added here.
